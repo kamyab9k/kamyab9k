@@ -20,7 +20,7 @@ Dedicated to crafting high-quality code and continuously enhancing my skills.
  
  <br>
  
- # 📕 My Latest Projects and Libraries
+ # 📕 My Latest Projects & Libraries
 
 
 * **[KamVision(Open-Source Library)](https://github.com/kamyab9k/KamVision)**: A library designed to ease the implementation of the Camera2 API in Jetpack Compose, offering powerful low-level control.
