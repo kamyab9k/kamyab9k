@@ -23,7 +23,7 @@ Dedicated to crafting high-quality code and continuously enhancing my skills.
  # 📕 My Latest Projects & Libraries
 
 
-* **[KamVision(Open-Source Library)](https://github.com/kamyab9k/KamVision)**: A library designed to ease the implementation of the Camera2 API in Jetpack Compose, offering powerful low-level control.
+* **[KamVision (Open-Source Library)](https://github.com/kamyab9k/KamVision)**: A library designed to ease the implementation of the Camera2 API in Jetpack Compose, offering powerful low-level control.
 * **[FitCore: Home Workouts & AI Coach](https://github.com/kamyab9k/FitCore-Documentation)**: Provides personalized workout programs, step tracking, an AI-driven personal coach, and many more features.
 
  Find more details on my [GitHub Repositories](https://github.com/kamyab9k?tab=repositories).
