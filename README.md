@@ -26,8 +26,7 @@ Dedicated to crafting high-quality code and continuously enhancing my skills.
 * **[KamVision (Open-Source Library)](https://github.com/kamyab9k/KamVision)**: A library designed to ease the implementation of the Camera2 API in Jetpack Compose, offering powerful low-level control.
 * **[FitCore: Home Workouts & AI Coach](https://github.com/kamyab9k/FitCore-Documentation)**: Provides personalized workout programs, step tracking, an AI-driven personal coach, and many more features.
 
- Find more details on my [GitHub Repositories](https://github.com/kamyab9k?tab=repositories).
-
+[Read my latest article on Medium](https://medium.com/@kamyab9k/how-to-integrate-gemini-api-into-your-android-project-80fe8422a9d8)
 
 ---
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
