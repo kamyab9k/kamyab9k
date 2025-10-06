@@ -28,7 +28,9 @@ Dedicated to crafting high-quality code and continuously enhancing my skills.
 
 # 📕 My Latest Articles & publications
 
-[Read my latest article on Medium:](https://medium.com/@kamyab9k/how-to-integrate-gemini-api-into-your-android-project-80fe8422a9d8) a step-by-step guide to integrating the Gemini API into your Android projects.
+* [Concurrency From CPU Architecture to Threads and Kotlin Coroutines:](https://medium.com/@kamyab9k/how-to-integrate-gemini-api-into-your-android-project-80fe8422a9d8) CPU Architecture, the Foundations of Concurrency, and Modern Evolution of Concurrency with Threads & Kotlin Coroutines 
+* [Artificial Intelligence Integration into Android:](https://medium.com/@kamyab9k/how-to-integrate-gemini-api-into-your-android-project-80fe8422a9d8) A step-by-step guide to integrating the Gemini API into your Android projects.
+
 
 ---
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
