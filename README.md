@@ -3,9 +3,7 @@
 <a href="https://www.linkedin.com/in/kamyab-khosravi-5214551a4/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
 <a href="https://medium.com/@kamyab9k"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
 
-![GitHub Languages](https://github-languages-card.vercel.app/api/top-languages?username=kamyab9k&theme=ocean)
-
-Android Developer specializing in advanced mobile applications, SDKs, and B2B products using the latest Android technologies.<br>
+Android Developer and backend engineer specializing in advanced mobile applications, SDKs, api development, databse and B2B products using the latest Android technologies.<br>
 Dedicated to crafting high-quality code and continuously enhancing my skills.
 
 
@@ -18,8 +16,9 @@ Dedicated to crafting high-quality code and continuously enhancing my skills.
  <br>
  
  # 💻 My Latest Projects & Libraries
+<img width="1536" height="1024" alt="ChatGPT Image Sep 4, 2026, 10_39_11 AM" src="https://github.com/user-attachments/assets/c794d9d1-8644-439c-a29c-3b812a91f8cd" />
 
-
+* **[Gratitude Garden - Couples ](https://github.com/kamyab9k/Gratitude-Garden-Couples-Documentation#-gratitude-garden--couples)**: This is a mobile application designed to help couples build a habit of appreciation by turning every gratitude into a beautiful plant in their garden.
 * **[KamVision (Open-Source Library)](https://github.com/kamyab9k/KamVision)**: Library published in Jitpack, designed to ease the implementation of the Camera2 API in Jetpack Compose, offering powerful low-level control.
 * **[FitCore: Home Workouts & AI Coach](https://github.com/kamyab9k/FitCore-Documentation)**: Provides personalized workout programs, step tracking, an AI-driven personal coach, and many more features.
 
