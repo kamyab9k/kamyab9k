@@ -16,7 +16,7 @@ Dedicated to crafting high-quality code and continuously enhancing my skills.
  <br>
  
  # 💻 My Latest Projects & Libraries
-<img width="1536" height="1024" alt="ChatGPT Image Sep 4, 2026, 10_39_11 AM" src="https://github.com/user-attachments/assets/c794d9d1-8644-439c-a29c-3b812a91f8cd" />
+<img width="1536" height="1024" alt="ChatGPT Image Sep 7, 2026, 08_55_46 PM" src="https://github.com/user-attachments/assets/4dd74367-37b7-4edf-9a9f-f2d7997d7661" /> <br>
 
 * **[Gratitude Garden - Couples ](https://github.com/kamyab9k/Gratitude-Garden-Couples-Documentation#-gratitude-garden--couples)**: This is a mobile application designed to help couples build a habit of appreciation by turning every gratitude into a beautiful plant in their garden.
 * **[KamVision (Open-Source Library)](https://github.com/kamyab9k/KamVision)**: Library published in Jitpack, designed to ease the implementation of the Camera2 API in Jetpack Compose, offering powerful low-level control.
