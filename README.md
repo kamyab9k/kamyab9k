@@ -9,25 +9,35 @@
   <a href="https://medium.com/@kamyab9k"><img src="https://img.shields.io/badge/Medium-000000?style=flat-square&logo=medium&logoColor=white" alt="Medium" /></a>
   <a href="https://dev.to/kamyab"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=flat-square&logo=devdotto&logoColor=white" alt="Dev.to" /></a>
   <a href="https://kamyab-ideas-production.up.railway.app/"><img src="https://img.shields.io/badge/KamyabLabs-live-3DDC84?style=flat-square&logo=railway&logoColor=white" alt="KamyabLabs" /></a>
-  <img src="https://komarev.com/ghpvc/?username=kamyab9k&style=flat-square&color=7F52FF&label=profile+views" alt="Profile views" />
+</p>
+
+<br/>
+<p align="center">
+  I build products end to end — <b>APIs and data layers in Java/Spring Boot</b>,<br/>
+  <b>mobile apps and SDKs in Kotlin</b>, and the web pieces that tie them together.<br/>
+  Currently doing my M.Sc. in Software Engineering at Universität Hildesheim.
 </p>
 
 <br/>
 
-```kotlin
-data class Engineer(
-    val name: String        = "Kamyab Khosravi",
-    val basedIn: String     = "Hildesheim, Germany 🇩🇪",
-    val studying: String    = "M.Sc. Software Engineering @ Uni Hildesheim",
-    val backend: List<String> = listOf("Java", "Spring Boot", "REST APIs", "Databases"),
-    val mobile: List<String>  = listOf("Kotlin", "Compose", "Camera2", "KMP"),
-    val shipping: String    = "Gratitude Garden → App Store & Google Play",
-    val openTo: String      = "Werkstudent · Backend / Android",
-    val deutsch: String     = "learning — B1 course 📚",
-)
-```
+## ⚡ What I do
 
-I build products end to end: **APIs and data layers in Java/Spring Boot**, **mobile apps and SDKs in Kotlin**, and the web pieces that tie them together. I care about clean architecture, code that's easy to read six months later, and actually shipping.
+<table>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <h3>🖥️ Backend</h3>
+      <p>REST APIs, databases and business logic with <b>Java &amp; Spring Boot</b>. Clean architecture, tested and ready to deploy.</p>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <h3>📱 Mobile</h3>
+      <p>Android apps and SDKs with <b>Kotlin &amp; Jetpack Compose</b>, plus cross-platform work with <b>Kotlin Multiplatform</b>.</p>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <h3>🚀 Product</h3>
+      <p>From idea to launch: I design, build and ship my own products — and deploy them live.</p>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
