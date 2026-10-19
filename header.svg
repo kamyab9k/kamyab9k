@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Kamyab Khosravi — Backend Engineer and Android Developer">
+  <defs>
+    <linearGradient id="roleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3DDC84"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7F52FF" stop-opacity=".9"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#3DDC84" stop-opacity=".9"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#ffffff" fill-opacity=".07"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="360" rx="24"/></clipPath>
+
+    <!-- typing masks for the terminal -->
+    <clipPath id="l1"><rect x="0" y="0" height="30" width="0"><animate attributeName="width" from="0" to="400" dur="0.7s" begin="0.4s" fill="freeze" calcMode="discrete" values="0;20;40;60;80;100;120;400" keyTimes="0;.12;.25;.37;.5;.62;.75;1"/></rect></clipPath>
+    <clipPath id="l2"><rect x="0" y="0" height="30" width="0"><animate attributeName="width" from="0" to="400" dur="0.01s" begin="1.3s" fill="freeze"/></rect></clipPath>
+    <clipPath id="l3"><rect x="0" y="0" height="30" width="0"><animate attributeName="width" values="0;400" dur="0.9s" begin="1.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="l4"><rect x="0" y="0" height="30" width="0"><animate attributeName="width" from="0" to="400" dur="0.01s" begin="3.0s" fill="freeze"/></rect></clipPath>
+    <clipPath id="l5"><rect x="0" y="0" height="30" width="0"><animate attributeName="width" values="0;400" dur="0.8s" begin="3.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="l6"><rect x="0" y="0" height="30" width="0"><animate attributeName="width" from="0" to="400" dur="0.01s" begin="4.6s" fill="freeze"/></rect></clipPath>
+
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
+      .float1 { animation: f1 14s ease-in-out infinite; }
+      .float2 { animation: f2 18s ease-in-out infinite; }
+      .float3 { animation: f3 16s ease-in-out infinite; }
+      @keyframes f1 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(120px,40px); } }
+      @keyframes f2 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-140px,-30px); } }
+      @keyframes f3 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(60px,-60px); } }
+      .pulse { animation: p 2s ease-out infinite; transform-origin: 0 0; transform-box: fill-box; }
+      @keyframes p { 0% { opacity: .9; transform: scale(1); } 100% { opacity: 0; transform: scale(3); } }
+      .blink { animation: b 1s steps(1) infinite; }
+      @keyframes b { 50% { opacity: 0; } }
+      .fadeUp { animation: up .9s cubic-bezier(.2,.7,.2,1) both; }
+      .d1 { animation-delay: .1s; } .d2 { animation-delay: .3s; } .d3 { animation-delay: .5s; } .d4 { animation-delay: .7s; }
+      @keyframes up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <!-- base -->
+    <rect width="1200" height="360" fill="#0A0E17"/>
+    <!-- moving aurora -->
+    <g filter="url(#blur)" opacity=".55">
+      <circle class="float1" cx="180" cy="80" r="150" fill="#7F52FF"/>
+      <circle class="float2" cx="980" cy="300" r="170" fill="#3DDC84" fill-opacity=".7"/>
+      <circle class="float3" cx="620" cy="360" r="130" fill="#22D3EE" fill-opacity=".6"/>
+    </g>
+    <rect width="1200" height="360" fill="url(#dots)"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="url(#border)" stroke-width="2"/>
+
+  <!-- left: identity -->
+  <g class="sans">
+    <g class="fadeUp d1">
+      <text x="64" y="92" fill="#94A3B8" font-size="15" letter-spacing="4" font-weight="600">HI THERE, I'M</text>
+    </g>
+    <g class="fadeUp d2">
+      <text x="62" y="158" fill="#F8FAFC" font-size="62" font-weight="800" letter-spacing="-1.5">Kamyab Khosravi</text>
+    </g>
+
+    <!-- rotating role line -->
+    <g class="fadeUp d3" font-size="24" font-weight="700" fill="url(#roleGrad)">
+      <text x="64" y="204" opacity="0">Backend Engineer · Java &amp; Spring Boot
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.22;.25;1" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <text x="64" y="204" opacity="0">Android Developer · Kotlin &amp; Compose
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.25;.30;.47;.50;1" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <text x="64" y="204" opacity="0">M.Sc. Software Engineering · Uni Hildesheim
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.50;.55;.72;.75;1" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <text x="64" y="204" opacity="0">Indie builder · apps, SDKs &amp; web products
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.75;.80;.97;1" dur="12s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- chips -->
+    <g class="fadeUp d4" font-size="14" font-weight="600">
+      <rect x="64" y="246" width="212" height="38" rx="19" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".12"/>
+      <text x="86" y="270" fill="#CBD5E1">📍 Hildesheim, Germany</text>
+
+      <rect x="290" y="246" width="250" height="38" rx="19" fill="#3DDC84" fill-opacity=".10" stroke="#3DDC84" stroke-opacity=".45"/>
+      <circle cx="312" cy="265" r="5" fill="#3DDC84"/>
+      <circle class="pulse" cx="312" cy="265" r="5" fill="#3DDC84"/>
+      <text x="327" y="270" fill="#86EFAC">Open to Werkstudent roles</text>
+    </g>
+  </g>
+
+  <!-- right: terminal -->
+  <g transform="translate(724 58)">
+    <rect width="420" height="244" rx="14" fill="#0D1117" fill-opacity=".88" stroke="#ffffff" stroke-opacity=".12"/>
+    <rect width="420" height="36" rx="14" fill="#ffffff" fill-opacity=".04"/>
+    <circle cx="22" cy="18" r="6" fill="#FF5F57"/>
+    <circle cx="42" cy="18" r="6" fill="#FEBC2E"/>
+    <circle cx="62" cy="18" r="6" fill="#28C840"/>
+    <text x="210" y="23" text-anchor="middle" class="mono" font-size="12" fill="#64748B">kamyab@hildesheim: ~</text>
+
+    <g class="mono" font-size="14">
+      <g transform="translate(20 52)"><g clip-path="url(#l1)"><text y="20" fill="#3DDC84">❯ <tspan fill="#E2E8F0">whoami</tspan></text></g></g>
+      <g transform="translate(20 80)"><g clip-path="url(#l2)"><text y="20" fill="#94A3B8">backend · android · product builder</text></g></g>
+      <g transform="translate(20 116)"><g clip-path="url(#l3)"><text y="20" fill="#3DDC84">❯ <tspan fill="#E2E8F0">cat stack.txt</tspan></text></g></g>
+      <g transform="translate(20 144)"><g clip-path="url(#l4)"><text y="20"><tspan fill="#F59E0B">java</tspan>  <tspan fill="#6DB33F">spring-boot</tspan>  <tspan fill="#A78BFA">kotlin</tspan>  <tspan fill="#22D3EE">compose</tspan></text></g></g>
+      <g transform="translate(20 180)"><g clip-path="url(#l5)"><text y="20" fill="#3DDC84">❯ <tspan fill="#E2E8F0">./ship --next</tspan></text></g></g>
+      <g transform="translate(20 208)"><g clip-path="url(#l6)"><text y="20" fill="#F8FAFC">🌱 gratitude-garden <tspan fill="#64748B">→</tspan> App Store</text></g></g>
+      <rect x="290" y="214" width="9" height="17" fill="#3DDC84" class="blink" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="4.7s" fill="freeze"/>
+      </rect>
+    </g>
+  </g>
+</svg>
