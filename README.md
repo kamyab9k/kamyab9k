@@ -1,7 +1,7 @@
-<!-- Profile README for github.com/kamyab9k — keep assets/header.svg in the same repo -->
+<!-- Profile README for github.com/kamyab9k — header.svg sits next to this file -->
 
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Kamyab Khosravi — Backend Engineer & Android Developer" />
+  <img src="./header.svg" width="100%" alt="Kamyab Khosravi — Backend Engineer & Android Developer" />
 </p>
 
 <p align="center">
@@ -18,9 +18,9 @@
 data class Engineer(
     val name: String        = "Kamyab Khosravi",
     val basedIn: String     = "Hildesheim, Germany 🇩🇪",
-    val studying: String    = "M.Sc. Software Engineering @ Universität Hildesheim",
+    val studying: String    = "M.Sc. Software Engineering @ Uni Hildesheim",
     val backend: List<String> = listOf("Java", "Spring Boot", "REST APIs", "Databases"),
-    val mobile: List<String>  = listOf("Kotlin", "Jetpack Compose", "Camera2", "Kotlin Multiplatform"),
+    val mobile: List<String>  = listOf("Kotlin", "Compose", "Camera2", "KMP"),
     val shipping: String    = "Gratitude Garden → App Store & Google Play",
     val openTo: String      = "Werkstudent · Backend / Android",
     val deutsch: String     = "learning — B1 course 📚",
